@@ -1,30 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>TNW | the heart of tech </title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
-</head>
+</head> 
 <body>
-	<div class="wrapper">
-		<header>
-			<div class="logo">
-				<img src="imgs/logo.png" alt="">
-			</div>
-			<nav class="header--nav"></nav>
-			<div class="newsletterbox"></div>
-		</header>
-		<div class="main">
-			<div class="hero">
-				<div class="logo">
-					<img src="imgs/logo.png" alt="">
-				</div>
-				<p class="description">the heart of tech</p>
-			</div>
+<header class="header">
+	<img src="imgs/logo.png" alt="" class="logo header--logo">
+	<nav class="header--nav">
+		<a href="">home</a>
+		<a href="">news</a>
+		<a href="">event</a>
+		<a href="">programs</a>
+		<a href="">spaces</a>
+		<a href="">more</a>
+	</nav>
+	<div class="newsletterbox"></div>
+</header>
+<div class="main">
+		<div class="hero">
+			<img src="imgs/logo.png" alt="" class="logo hero--logo">
+			<p class="hero--description">the heart of tech</p>
+		</div>
 
-			<div class="selectedArticles">
-				<div class="selectedArticle">
+		<div class="selectedArticles--container">
+			<div class="selectedArticles container">
+				<div class="selectedArticle selectedArticle1">
 					<p class="catagory">
 						Security
 					</p>
@@ -33,7 +38,7 @@
 					</h2>
 				</div>
 
-				<div class="selectedArticle">
+				<div class="selectedArticle selectedArticle2">
 					<p class="catagory">
 						Security
 					</p>
@@ -42,7 +47,7 @@
 					</h2>
 				</div>
 
-				<div class="selectedArticle">
+				<div class="selectedArticle selectedArticle3 ">
 					<p class="catagory">
 						Security
 					</p>
@@ -50,16 +55,15 @@
 						It’s time to make stringent cybersecurity for infrastructure companies mandatory
 					</h2>
 				</div>								
-				<div class="selectedArticle">
-					<p class="catagory">
-						Security
-					</p>
-					<h2 class="selectedArticle--header">
-						It’s time to make stringent cybersecurity for infrastructure companies mandatory
+				<div class="selectedArticle selectedArticle4 conference">
+					<h2 class="conference--header">
+						Europe’s leading tech festival is leveling up TNW Conference goes hybrid
 					</h2>
+
+					<button class="learnmoreBtn btn">learn more</button>
 				</div>
 
-				<div class="selectedArticle">
+				<div class="selectedArticle selectedArticle5">
 					<p class="catagory">
 						Security
 					</p>
@@ -67,9 +71,14 @@
 						It’s time to make stringent cybersecurity for infrastructure companies mandatory
 					</h2>
 				</div>				
-			</div>
+			</div>			
+		</div>
 
-			<div class="popularArticles">
+		<div class="popularArticles--container">
+			<div class="popularArticles container"> 
+				<h2 class="popularArticles--title sectionTitle">
+					POPULAR ARTICLES TODAY
+				</h2>
 				<div class="popularArticle">
 					<p class="articleNo">
 						1
@@ -114,65 +123,78 @@
 						Why is ‘Other’ in my iPhone storage taking up so much space and how do I clear it?
 					</h2>
 				</div>			
-			</div>
+			</div>			
+		</div>
 
-			<div class="latestStories">
-				<h2 class="latestStories--title sectionTitle">
+		<div class="latestStories--container">
+			<div class="latestStories container">
+				<h2 class="latestStories--title sectionTitle"> 
 					Latest stories
 				</h2>
 				<div class="latestStorie">
-					<div class="thumbnail">
-						<img src="imgs/image2.jpg" alt="">
+					<img class="thumbnail" src="imgs/image2.jpg" alt="">
+					<div class="latestStorieInfo">
+						<h3 class="latestStorie--title">Bacteria are better alien hunters than you — sorry, squishy human</h3>
+						<p class="uploadTime">2 hours ago</p>
 					</div>
-					<h3 class="latestStorie--title">Bacteria are better alien hunters than you — sorry, squishy human</h3>
-					<p class="uploadTime">2 hours ago</p>
 				</div>
 				<div class="latestStorie">
-					<div class="thumbnail">
-						<img src="imgs/image2.jpg" alt="">
+					<img class="thumbnail" src="imgs/image2.jpg" alt="">
+					<div class="latestStorieInfo">
+						<h3 class="latestStorie--title">Bacteria are better alien hunters than you — sorry, squishy human</h3>
+						<p class="uploadTime">2 hours ago</p>
 					</div>
-					<h3 class="latestStorie--title">Bacteria are better alien hunters than you — sorry, squishy human</h3>
-					<p class="uploadTime">2 hours ago</p>
 				</div>
 				<div class="latestStorie">
-					<div class="thumbnail">
-						<img src="imgs/image2.jpg" alt="">
+					<img class="thumbnail" src="imgs/image2.jpg" alt="">
+					<div class="latestStorieInfo">
+						<h3 class="latestStorie--title">Bacteria are better alien hunters than you — sorry, squishy human</h3>
+						<p class="uploadTime">2 hours ago</p>
 					</div>
-					<h3 class="latestStorie--title">Bacteria are better alien hunters than you — sorry, squishy human</h3>
-					<p class="uploadTime">2 hours ago</p>
 				</div>
 				<div class="latestStorie">
-					<div class="thumbnail">
-						<img src="imgs/image2.jpg" alt="">
+					<img class="thumbnail" src="imgs/image2.jpg" alt="">
+					<div class="latestStorieInfo">
+						<h3 class="latestStorie--title">Bacteria are better alien hunters than you — sorry, squishy human</h3>
+						<p class="uploadTime">2 hours ago</p>
 					</div>
-					<h3 class="latestStorie--title">Bacteria are better alien hunters than you — sorry, squishy human</h3>
-					<p class="uploadTime">2 hours ago</p>
 				</div>
 				<div class="latestStorie">
-					<div class="thumbnail">
-						<img src="imgs/image2.jpg" alt="">
+					<img class="thumbnail" src="imgs/image2.jpg" alt="">
+					<div class="latestStorieInfo">
+						<h3 class="latestStorie--title">Bacteria are better alien hunters than you — sorry, squishy human</h3>
+						<p class="uploadTime">2 hours ago</p>
 					</div>
-					<h3 class="latestStorie--title">Bacteria are better alien hunters than you — sorry, squishy human</h3>
-					<p class="uploadTime">2 hours ago</p>
 				</div>
 				<div class="latestStorie">
-					<div class="thumbnail">
-						<img src="imgs/image2.jpg" alt="">
+					<img class="thumbnail" src="imgs/image2.jpg" alt="">
+					<div class="latestStorieInfo">
+						<h3 class="latestStorie--title">Bacteria are better alien hunters than you — sorry, squishy human</h3>
+						<p class="uploadTime">2 hours ago</p>
 					</div>
-					<h3 class="latestStorie--title">Bacteria are better alien hunters than you — sorry, squishy human</h3>
-					<p class="uploadTime">2 hours ago</p>
+				</div>							
+				<div class="latestStorie">
+					<img class="thumbnail" src="imgs/image2.jpg" alt="">
+					<div class="latestStorieInfo">
+						<h3 class="latestStorie--title">Bacteria are better alien hunters than you — sorry, squishy human</h3>
+						<p class="uploadTime">2 hours ago</p>
+					</div>
 				</div>
 				<div class="latestStorie">
-					<div class="thumbnail">
-						<img src="imgs/image2.jpg" alt="">
+					<img class="thumbnail" src="imgs/image2.jpg" alt="">
+					<div class="latestStorieInfo">
+						<h3 class="latestStorie--title">Bacteria are better alien hunters than you — sorry, squishy human</h3>
+						<p class="uploadTime">2 hours ago</p>
 					</div>
-					<h3 class="latestStorie--title">Bacteria are better alien hunters than you — sorry, squishy human</h3>
-					<p class="uploadTime">2 hours ago</p>
-				</div>
-				<button class="btn seeallNewsbtn">all news</button>
+				</div>	 									
 			</div>
+			<div class="latestBtn">
+				<button class="btn seeallNewsbtn">all news</button>	
+			</div>
+		</div>
 
-			<div class="channels">
+		<div class="channels--container">
+			<div class="channels container">
 				<h3 class="sectionTitle channels--title">
 					Explore our channels
 				</h3>
@@ -200,28 +222,32 @@
 						Your sardonic source for consumer tech stories
 					</p>
 				</div>
-				<div class="channel channel1">
+				<div class="channel channel5">
 					<img src="imgs/channellogo.svg" alt="" class="channel--logo">
 					<p class="channel--description">
 						Your sardonic source for consumer tech stories
 					</p>
-				</div>					
-			</div>
-
+				</div>					 
+			</div>			
+		</div>
+ 
+		<div class="newsletterForm--container">
 			<div class="newsletterForm">
 				<h2 class="sectionTitle newsletterForm--title">Get the snarkiest newsletter in tech</h2>
 				<p class="newsletterForm--description">Subscribe to our twice-weekly Big Spam or check out our other newsletters.</p>
 				<input type="text" class="newletterForm--form" placeholder="Email">
 				<div class="social--medias"></div>
-			</div>
+			</div>			
+		</div>
 
-			<div class="porductsReview">
+		<div class="productsReview--container">
+			<div class="productsReview ">
 				<h2 class=" sectionTitle productReview--title">Watch what we made you</h2>
 				<div class="productReview--video">
 					<div class="video">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/UAu4d0K99Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe width="900" height="500" class="videoF" src="https://www.youtube.com/embed/UAu4d0K99Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
-
+ 
 					<div class="vidinfo">
 						<h5 class="vidtitle">Sonos Roam review: Smart speaker, smarter business</h5>
 						<p class="pubDate">May 6, 2021</p>			
@@ -229,14 +255,63 @@
 				</div>
 				<div class="productReview--sidebar">
 					<div class="productReview--vid productReview--vid1">
-						<img src="" alt="" class="vidthumbnail">
+						<img src="../imgs/vidthumbnail.jpg" alt="" class="vidthumbnail">
 						<h5 class="vidtitle">
 							Sonos Roam review: Smart speaker, smarter business
 						</h5>
 					</div>
+					<div class="productReview--vid productReview--vid1">
+						<img src="../imgs/vidthumbnail.jpg" alt="" class="vidthumbnail">
+						<h5 class="vidtitle">
+							Sonos Roam review: Smart speaker, smarter business
+						</h5>
+					</div>
+					<div class="productReview--vid productReview--vid1">
+						<img src="../imgs/vidthumbnail.jpg" alt="" class="vidthumbnail">
+						<h5 class="vidtitle">
+							Sonos Roam review: Smart speaker, smarter business
+						</h5>
+					</div>
+					<div class="productReview--vid productReview--vid1">
+						<img src="../imgs/vidthumbnail.jpg" alt="" class="vidthumbnail">
+						<h5 class="vidtitle">
+							Sonos Roam review: Smart speaker, smarter business
+						</h5>
+					</div>
+					<div class="productReview--vid productReview--vid1">
+						<img src="../imgs/vidthumbnail.jpg" alt="" class="vidthumbnail">
+						<h5 class="vidtitle">
+							Sonos Roam review: Smart speaker, smarter business
+						</h5>
+					</div>
+					<div class="productReview--vid productReview--vid1">
+						<img src="../imgs/vidthumbnail.jpg" alt="" class="vidthumbnail">
+						<h5 class="vidtitle">
+							Sonos Roam review: Smart speaker, smarter business
+						</h5>
+					</div>
+					<div class="productReview--vid productReview--vid1">
+						<img src="../imgs/vidthumbnail.jpg" alt="" class="vidthumbnail">
+						<h5 class="vidtitle">
+							Sonos Roam review: Smart speaker, smarter business
+						</h5>
+					</div>
+					<div class="productReview--vid productReview--vid1">
+						<img src="../imgs/vidthumbnail.jpg" alt="" class="vidthumbnail">
+						<h5 class="vidtitle">
+							Sonos Roam review: Smart speaker, smarter business
+						</h5>
+					</div>
+					<div class="productReview--vid productReview--vid1">
+						<img src="../imgs/vidthumbnail.jpg" alt="" class="vidthumbnail">
+						<h5 class="vidtitle">
+							Sonos Roam review: Smart speaker, smarter business
+						</h5>
+					</div>	
 				</div>
-			</div>
-
+			</div>			
+		</div>
+		<div class="joinUs--container">
 			<div class="joinUs">
 				<div class="left">
 					<p class="joinUs--subtitle">REACH YOUR GOALS
@@ -248,11 +323,11 @@
 					<p class="joinUs--description">
 						TNW takes center stage in the tech industry, offering creative media campaigns, sizzling tech events, bespoke innovation programs, and prime office locations in Amsterdam. Want to engage your audience more effectively, innovate your business, and position your brand in front of a digital-savvy audience?
 					</p>
-					<button class="joinUs--btn">
+					<button  class="joinUs--btn btn">
 						get in touch
 					</button>					
 				</div>
-				<div class="right">
+				<div class="right mediums">
 					<div class="medium">
 						<img src="imgs/image5.svg" alt="" class="medium--img">
 						<p class="medium--name">Media</p>
@@ -270,27 +345,30 @@
 						<p class="medium--name">Media</p>
 					</div>	
 				</div>
-			</div>
-
-			<div class="brandsWeWorkedwith">
-				<div class="brand"><img src="" alt="" class="brand--logo"></div>
-				<div class="brand"><img src="" alt="" class="brand--logo"></div>
-				<div class="brand"><img src="" alt="" class="brand--logo"></div>
-				<div class="brand"><img src="" alt="" class="brand--logo"></div>
-				<div class="brand"><img src="" alt="" class="brand--logo"></div>
-				<div class="brand"><img src="" alt="" class="brand--logo"></div>
-				<div class="brand"><img src="" alt="" class="brand--logo"></div>
-				<div class="brand"><img src="" alt="" class="brand--logo"></div>
-			</div>
+			</div>			
 		</div>
+<!-- 
 
-		<div class="footer">
-			<div class="left">
+		<div class="brandsWeWorkedwith">
+			<div class="brand"><img src="" alt="" class="brand--logo"></div>
+			<div class="brand"><img src="" alt="" class="brand--logo"></div>
+			<div class="brand"><img src="" alt="" class="brand--logo"></div>
+			<div class="brand"><img src="" alt="" class="brand--logo"></div>
+			<div class="brand"><img src="" alt="" class="brand--logo"></div>
+			<div class="brand"><img src="" alt="" class="brand--logo"></div>
+			<div class="brand"><img src="" alt="" class="brand--logo"></div>
+			<div class="brand"><img src="" alt="" class="brand--logo"></div>
+		</div>		 -->	
+	</div>
+
+	<div class="footer">
+		<div class="footer--container">
+			<div class="footer--left">
 				<div class="siteInfo">
-					<img src="imgs/logo.png" alt="" class="logo">
-					<p class="description">The heart of tech</p>
+					<img src="imgs/logo2.png" alt="" class="logo footer--logo">
+					<p class="footer--description">The heart of tech</p>
 				</div>
-
+	 
 				<div class="social--medias">
 					<a href="" class="media"></a>
 					<a href="" class="media"></a>
@@ -301,7 +379,7 @@
 					<a href="" class="media"></a>
 				</div>
 			</div>
-			<div class="center">
+			<div class="footer--center">
 				<h3 class="section--name">More TNW</h3>
 
 				<div class="links">
@@ -313,7 +391,7 @@
 				</div>
 			</div>
 
-			<div class="right">
+			<div class="footer--right">
 				<h3 class="section--name">about tnw</h3>
 
 				<div class="links">
@@ -326,15 +404,14 @@
 					<a href="" class="link link7">link7</a>
 					<a href="" class="link link8">link8</a>
 				</div>
-			</div>
-
-			<div class="bottom">
-				<div class="copyright">
-					<h5 class="copy--title">TNW is a Financial Times company.</h5>
-					<p class="copy--description">Copyright &copy; 2006—2021, The Next Web B.V. Made with <3 in Amsterdam.</p>
-				</div> 
-			</div>
+			</div>	
 		</div>
-	</div> 
+		<div class="bottom">
+			<div class="copyright">
+				<h5 class="copy--title">TNW is a Financial Times company.</h5>
+				<p class="copy--description">Copyright &copy; 2006—2021, The Next Web B.V. Made with <3 in Amsterdam.</p>
+			</div> 
+		</div>
+	</div>
 </body>
 </html>
